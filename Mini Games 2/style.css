@@ -1,0 +1,190 @@
+body {
+    color: rgb(102, 101, 101);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Arial;
+}
+
+.nav {
+    overflow: hidden;
+    padding: 1%;
+}
+
+.nav a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+}
+
+.nav a:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav a.active {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav img {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.header {
+    padding: 7%;
+    overflow: hidden;
+    margin-left: 11%;
+}
+
+.header img {
+    width: 331px;
+    height: 291px;
+    float: left;
+}
+
+.header .text {
+    width: 300px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.header .text h1 {
+    color: orange;
+}
+
+.Portofolio{
+    margin-top: 6%;
+    margin-left: 11%;
+    margin-right: 11%;  
+}
+
+.Portofolio .image {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.Portofolio .image img{
+    width: 200px;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.Portofolio h1 {
+    color: orange;
+}
+
+.About {
+    margin-top: 15%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.About h1 {
+    color: orange;
+}
+
+.About .text {
+    width: 45%;
+    float: left;
+}
+
+.About .boxes {
+    float: left;
+    width: 45%;
+    margin-left: 10%;
+}
+
+.About .boxes .box{
+    float: left;
+    width: 100px;
+    border: solid grey 2px;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.Contact {
+    margin-top: 30%;
+    margin-left: 11%;
+    margin-right: 11%;
+    padding: 50px;
+    background-color: rgb(238, 235, 235);
+    height: 230px;
+}
+
+.Contact h1 {
+    color: black;
+    width: 25%;
+    float: left;
+}
+
+.Contact .form {
+    float: left;
+    width: 75%;
+}
+
+.Contact .form form .name {
+    float: left;
+    width: 50%;
+}
+
+.Contact .form form .email {
+    float: left;
+    width: 50%;
+}
+
+.Contact .form form .message {
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.Contact .form form .message #message{
+    resize: none;
+    width: 200px;
+    height: 100px;
+}
+
+.Contact .btn-submit {
+    float: left;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.Contact .btn-submit a{
+    text-decoration: none;
+    color: white;
+}
+
+.Contact .btn-submit button{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Arial;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+.footer .image{
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+.footer img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+.footer .text{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10%;
+}
